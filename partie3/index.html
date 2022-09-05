@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./index.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <main>
+      <form>
+        <label for="userName">Nom d'utiliisateur: </label>
+        <input type="text" id="userName" required />
+        <br />
+        <label for="pwd">Mot de passe: </label>
+        <input type="password" id="pwd" required />
+        <br />
+        <label for="H"> Homme </label>
+        <input type="radio" name="sexe" value="homme" id="H" required />
+        <label for="F"> Femme </label>
+        <input name="sexe" type="radio" value="femme" id="F" />
+        <br />
+        <label>Moyen pour vous contactez :</label>
+        <label for="mail">mail</label>
+        <input type="checkbox" name="email" value="mail" id="mail" />
+        <label for="tel">tel</label
+        ><input type="checkbox" name="tel" value="tel" id="tel" />
+        <label for="bp">Boite postal</label>
+        <input type="checkbox" name="Bp" value="Bp" id="bp" />
+        <br />
+        <label>Votre pays d'origine: </label>
+        <select name="" id="country" required>
+          <option value="">choisir un pays</option>
+          <option value="Togo">Togo</option>
+          <option value="Tchad">Tchad</option>
+          <option value="Ghana">Ghana</option>
+        </select>
+        <br />
+        <button type="submit">Valider</button>
+      </form>
+    </main>
+    <script src="./index.js"></script>
+  </body>
+</html>

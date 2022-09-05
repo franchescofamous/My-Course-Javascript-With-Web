@@ -1,0 +1,10 @@
+.testButton {
+  height: 5vh;
+  background-color: rgb(231, 49, 49);
+  color: white;
+  border: 1px solid white;
+  border-radius: 1vh;
+  box-shadow: 4px 3px 6px black;
+  cursor: pointer;
+  font-style: italic;
+}
